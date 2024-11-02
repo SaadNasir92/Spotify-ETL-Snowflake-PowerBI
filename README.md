@@ -4,6 +4,7 @@ Spotify-Serverless-ETL-Pipeline-Engineering-with-AWS
 Currently in progress - below is an image of the pipeline being engineered.
 
 
-![Solution Architecture](resources/readme_imgs/solution_flow.png)
-
+![Solution Architecture](resources/images/readme_imgs/solution_flow.png)
+![Dashboard](resources/images/readme_imgs/PowerBI_Dashboard.png)
+[View the dashboard PDF]('powerbi_docs/PowerBI_Dashboard.pdf')
 
