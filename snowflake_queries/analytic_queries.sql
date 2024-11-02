@@ -29,7 +29,10 @@ join artists a on a.artist_id = s.artist_id
 group by a.artist_name, a.artist_id),
 
 cte2 as (
-select artist_id, sum(a.total_tracks) as "Total Tracks in Album" from albums a
+select 
+    artist_id,
+    sum(a.total_tracks) as "Total Tracks in Album" 
+from albums a
 join songs s on s.album_id = a.album_id
 group by artist_id),
 
@@ -55,5 +58,6 @@ from final_table
 where ranking <=5 or ranking >= (select (max(ranking) - 5) as lowest_rank from final_table)
 ;
 
-
-
+select song_name, popularity
+from songs
+where popularity = (select max(popularity) from songs);
