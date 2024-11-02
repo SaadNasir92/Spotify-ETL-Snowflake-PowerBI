@@ -136,7 +136,7 @@ Key metrics include:
 - Song duration analysis
 - Total tracks per artist
 
-![Dashboard](resources/images/readme_imgs/powerbidashboard.png)
+![Dashboard](resources/images/readme_imgs/dashboard.png)
 [Dashboard PDF](powerbi_docs/powerbidashboard.pdf)
 ## Tech Stack
 
